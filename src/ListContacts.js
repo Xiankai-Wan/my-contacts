@@ -44,7 +44,6 @@ class ListContacts extends Component{
             <Link
             to = '/create' 
             className = 'add-contact'
-            // onClick={addContact}
             >Create Contact</Link>
             </div>
                 {showingContacts.length !== contacts.length && (
